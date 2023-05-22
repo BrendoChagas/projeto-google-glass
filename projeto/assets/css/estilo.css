@@ -122,6 +122,38 @@ section#corpo{
     padding-right: 15px;
 }
 
+article#artigo h2{
+    font-size: 12pt;
+    color: #606060;
+    background-color: #dddddd;
+    padding: 5px 0px 5px 10px;
+    margin: 10px 0px 10px 0px;
+}
+
+header#cabecalhoartigo h1{
+    font-family: FontoLogo, sans-serif;
+    font-size: 20pt;
+    color: #606060;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+header#cabecalhoartigo h2{
+    font-size: 13pt;
+    color: #cecece;
+    background-color: transparent;
+    margin: 0;
+}
+
+header#cabecalhoartigo h3{
+    font-size: 12pt;
+    color: #606060;
+}
+
+.direita{
+    text-align: right;
+}
+
 table#tabelaspec{
     border: 1px #606060 solid;
     border-spacing: 0px;
