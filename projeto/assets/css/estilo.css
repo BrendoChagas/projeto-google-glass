@@ -140,7 +140,7 @@ article#artigo h2{
     margin: 10px 0px 10px 0px;
 }
 
-article#artigo video{
+article#artigo video.main{
     width: 100%;
 }
 
