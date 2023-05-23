@@ -8,6 +8,7 @@
 body{
     background-color: white;
     color: rgba(0, 0, 0, 1);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 div#interface{
@@ -22,6 +23,15 @@ p{
     text-indent: 50px;
 }
 
+a{
+    color: #606060;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
 header#cabecalho{
     border-bottom: 1px #606060 solid;
     height: 150px;
@@ -29,7 +39,7 @@ header#cabecalho{
 }
 
 header#cabecalho h1{
-    font-family: FonteLogo, sans-serif;
+    font-family: 'FonteLogo', sans-serif;
     font-size: 30pt;
     color: #606060;
     text-shadow: 1px 1px 1px rgb(0, 0, 0, 0.6);
@@ -38,7 +48,7 @@ header#cabecalho h1{
 }
 
 header#cabecalho h2{
-    font-family: Titillium Web, sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     font-size: 15pt;
     color: #888888;
     padding: 0px;
@@ -130,8 +140,12 @@ article#artigo h2{
     margin: 10px 0px 10px 0px;
 }
 
+article#artigo video{
+    width: 100%;
+}
+
 header#cabecalhoartigo h1{
-    font-family: FontoLogo, sans-serif;
+    font-family: 'FonteLogo', sans-serif;
     font-size: 20pt;
     color: #606060;
     margin-bottom: 0px;
@@ -197,6 +211,28 @@ aside#lateral{
     display: block;
     width: 350px;
     float: right;
+    background-color: #dddddd;
+    padding: 10px;
+    margin-top: 10px;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.5);
+}
+
+aside#lateral h1{
+    font-family: 'FonteLogo', sans-serif;
+    font-size: 20pt;
+    color: #606060;
+    margin-top: 0px;
+}
+
+aside#lateral h2{
+    background-color: #606060;
+    font-size: 12pt;
+    color: white;
+    padding: 5px;
+}
+
+aside#lateral video{
+    width: 100%;
 }
 
 footer{
